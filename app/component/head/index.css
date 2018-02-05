@@ -1,0 +1,56 @@
+
+.flex {
+    overflow: hidden;  background: #f2384d ;       padding: 0.15rem 0;
+
+}
+.flex>div{
+    float: left;    color: white; font-size: 0.22rem;
+}
+.flex>div a{
+    color: white;
+}
+.bg{
+    color: white;
+}
+
+
+.flex>div:first-child{
+    margin-left:0.4rem;
+}
+
+.flex>div:nth-child(2){
+    margin-left:0.5rem  ;
+    overflow: hidden;
+    width: 4.63rem; height: 0.42rem;
+    border-radius: 0.22rem;
+}
+
+/*
+.flex>div:nth-child(2)  .search::before{
+    content: url("./images/s.png");
+    font-size: 1em;
+}*/
+.flex>div:nth-child(2)  .search{
+    display: inline-block;
+    width: 0.43rem;
+    height: 0.44rem;
+    background: url("./images/s.png") no-repeat;
+    background-size: 100%;
+}
+.flex>div:nth-child(2) input{
+    display: inline-block;
+    vertical-align: top;
+    width: 4.2rem;  height: 0.42rem; line-height:0.42rem;color: #666666;
+    font-size: 0.18rem; border: none;            float: right;        position: relative;
+    left: -0.01rem;
+}
+
+.flex>div:last-child{
+    float: right;
+    margin-right: 0.4rem;
+}
+
+
+input::-webkit-input-placeholder {
+      color: #aab2bd;
+      }

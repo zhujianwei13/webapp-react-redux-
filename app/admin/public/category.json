@@ -1,0 +1,39 @@
+/**
+ * Created by Administrator on 2018/1/31.
+ */
+
+[
+
+      {
+       "id":1,
+        "cname":"美食",
+        "imgurl":"public/1.jpg"
+      } ,
+      {
+        "id":2,
+        "cname":"电影",
+        "imgurl":"public/2.jpg"
+      }
+      , {
+        "id":3,
+        "cname":"酒店",
+        "imgurl":"public/3.jpg"
+      }
+      , {
+        "id":4,
+        "cname":"休闲娱乐",
+        "imgurl":"public/4.jpg"
+      }
+      , {
+        "id":5,
+        "cname":"外卖",
+        "imgurl":"public/5.jpg"
+      }   ,
+      {
+        "id":6,
+        "cname":"火锅",
+        "imgurl":"public/6.jpg"
+      }
+
+
+]
